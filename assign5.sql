@@ -50,4 +50,4 @@ SELECT DISTINCT COUNT(name) "Unique names", gender FROM BabyName WHERE year="192
 
 
 # Question 10
-SELECT DISTINCT COUNT(name) "Unique names", place FROM BabyName GROUP BY place;
+SELECT DISTINCT COUNT(name) "Unique names", place FROM BabyName GROUP BY place LIMIT 20;

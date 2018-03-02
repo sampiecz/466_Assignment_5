@@ -1,4 +1,4 @@
-MariaDB [BabyName]> source assign5.sql
+MariaDB [(none)]> source assign5.sql
 +--------------------+
 | Database           |
 +--------------------+
@@ -10,7 +10,10 @@ MariaDB [BabyName]> source assign5.sql
 | test               |
 | z1732715           |
 +--------------------+
-7 rows in set (0.05 sec)
+7 rows in set (0.04 sec)
+
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
 
 Database changed
 +--------------------+
@@ -54,94 +57,34 @@ Database changed
 | 1911 |
 | 1912 |
 | 1913 |
-| 1914 |
-| 1915 |
-| 1916 |
-| 1917 |
-| 1918 |
-| 1919 |
-| 1920 |
-| 1921 |
-| 1922 |
-| 1923 |
-| 1924 |
-| 1925 |
-| 1926 |
-| 1927 |
-| 1928 |
-| 1929 |
-| 1930 |
-| 1931 |
-| 1932 |
-| 1933 |
-| 1934 |
-| 1935 |
-| 1936 |
-| 1937 |
-| 1938 |
-| 1939 |
-| 1940 |
-| 1941 |
-| 1942 |
-| 1943 |
 +------+
-50 rows in set (0.00 sec)
+20 rows in set (0.00 sec)
 
-+--------------+
-| name         |
-+--------------+
-| Aadam        |
-| Aadil        |
-| Aakash       |
-| Aalayah      |
-| Aaleeyah     |
-| Aaleyah      |
-| Aaliah       |
-| Aalim        |
-| Aaliya       |
-| Aaliyah      |
-| Aaliyha      |
-| Aalyah       |
-| Aalyiah      |
-| Aaminah      |
-| Aamir        |
-| Aamna        |
-| Aaren        |
-| Aarianna     |
-| Aaric        |
-| Aariel       |
-| Aarika       |
-| Aarin        |
-| Aarion       |
-| Aarionna     |
-| Aaris        |
-| Aaron        |
-| Aaronjames   |
-| Aaronmichael |
-| Aarron       |
-| Aarthi       |
-| Aarti        |
-| Aaryn        |
-| Aasha        |
-| Aashka       |
-| Aashna       |
-| Aasia        |
-| Aasim        |
-| Aasin        |
-| Abagael      |
-| Abagail      |
-| Abagale      |
-| Abagayle     |
-| Abaigeal     |
-| Abbagail     |
-| Abbas        |
-| Abbe         |
-| Abbegail     |
-| Abbey        |
-| Abbi         |
-| Abbie        |
-+--------------+
-50 rows in set (0.00 sec)
++----------+
+| name     |
++----------+
+| Aadam    |
+| Aadil    |
+| Aakash   |
+| Aalayah  |
+| Aaleeyah |
+| Aaleyah  |
+| Aaliah   |
+| Aalim    |
+| Aaliya   |
+| Aaliyah  |
+| Aaliyha  |
+| Aalyah   |
+| Aalyiah  |
+| Aaminah  |
+| Aamir    |
+| Aamna    |
+| Aaren    |
+| Aarianna |
+| Aaric    |
+| Aariel   |
++----------+
+20 rows in set (0.00 sec)
 
 +---------+-------------+--------+
 | name    | COUNT(name) | gender |
@@ -151,140 +94,78 @@ Database changed
 +---------+-------------+--------+
 2 rows in set (0.00 sec)
 
-+------+-------+--------+------+-------+
-| name | count | gender | year | place |
-+------+-------+--------+------+-------+
-| Sam  |     5 | F      | 1888 | US    |
-| Sam  |     6 | F      | 1889 | US    |
-| Sam  |     7 | F      | 1890 | US    |
-| Sam  |     7 | F      | 1893 | US    |
-| Sam  |     8 | F      | 1894 | US    |
-| Sam  |     5 | F      | 1895 | US    |
-| Sam  |     5 | F      | 1897 | US    |
-| Sam  |    11 | F      | 1900 | US    |
-| Sam  |     7 | F      | 1901 | US    |
-| Sam  |     7 | F      | 1902 | US    |
-| Sam  |     5 | F      | 1904 | US    |
-| Sam  |     8 | F      | 1905 | US    |
-| Sam  |     6 | F      | 1906 | US    |
-| Sam  |     8 | F      | 1907 | US    |
-| Sam  |     5 | F      | 1908 | US    |
-| Sam  |     8 | F      | 1909 | US    |
-| Sam  |    13 | F      | 1910 | US    |
-| Sam  |     6 | F      | 1911 | US    |
-| Sam  |    13 | F      | 1912 | US    |
-| Sam  |     7 | F      | 1913 | TN    |
-| Sam  |    23 | F      | 1913 | US    |
-| Sam  |    18 | F      | 1914 | US    |
-| Sam  |     6 | F      | 1915 | TN    |
-| Sam  |    27 | F      | 1915 | US    |
-| Sam  |     5 | F      | 1916 | TN    |
-| Sam  |    23 | F      | 1916 | US    |
-| Sam  |    14 | F      | 1917 | US    |
-| Sam  |    23 | F      | 1918 | US    |
-| Sam  |     6 | F      | 1919 | AR    |
-| Sam  |     5 | F      | 1919 | LA    |
-| Sam  |     5 | F      | 1919 | TX    |
-| Sam  |    36 | F      | 1919 | US    |
-| Sam  |     5 | F      | 1920 | AR    |
-| Sam  |     5 | F      | 1920 | TN    |
-| Sam  |    23 | F      | 1920 | US    |
-| Sam  |     5 | F      | 1921 | AR    |
-| Sam  |    26 | F      | 1921 | US    |
-| Sam  |     7 | F      | 1922 | TN    |
-| Sam  |    28 | F      | 1922 | US    |
-| Sam  |     5 | F      | 1923 | MS    |
-| Sam  |    24 | F      | 1923 | US    |
-| Sam  |     5 | F      | 1924 | AR    |
-| Sam  |     5 | F      | 1924 | TN    |
-| Sam  |    30 | F      | 1924 | US    |
-| Sam  |     5 | F      | 1925 | TN    |
-| Sam  |    25 | F      | 1925 | US    |
-| Sam  |    22 | F      | 1926 | US    |
-| Sam  |    23 | F      | 1927 | US    |
-| Sam  |     8 | F      | 1928 | MS    |
-| Sam  |    32 | F      | 1928 | US    |
-+------+-------+--------+------+-------+
-50 rows in set (0.01 sec)
++----------+-------+------+
+| name     | count | year |
++----------+-------+------+
+| Sam      |     5 | 1888 |
+| Sama     |     5 | 1983 |
+| Samaa    |     5 | 1998 |
+| Samaad   |     7 | 1992 |
+| Samaah   |     5 | 2000 |
+| Samaara  |     5 | 2014 |
+| Samad    |     5 | 1972 |
+| Samadhi  |    13 | 2004 |
+| Samael   |     5 | 1998 |
+| Samah    |     5 | 1978 |
+| Samahj   |     5 | 2010 |
+| Samai    |     6 | 2001 |
+| Samaia   |     7 | 2002 |
+| Samaiah  |     5 | 2004 |
+| Samaira  |     7 | 1993 |
+| Samaire  |     6 | 2005 |
+| Samaiya  |     5 | 1995 |
+| Samaiyah |     6 | 1978 |
+| Samaj    |     6 | 2007 |
+| Samajae  |     5 | 2006 |
++----------+-------+------+
+20 rows in set (0.00 sec)
 
-+----------+
-| COUNT(*) |
-+----------+
-|  7601706 |
-+----------+
++----------------+
+| Number of rows |
++----------------+
+|        7601706 |
++----------------+
 1 row in set (0.00 sec)
 
-+-------------+
-| COUNT(name) |
-+-------------+
-|       64807 |
-+-------------+
++----------------------+
+| Unique names in 1960 |
++----------------------+
+|                64807 |
++----------------------+
 1 row in set (0.00 sec)
 
-+-------------+--------+
-| COUNT(name) | gender |
-+-------------+--------+
-|       25596 | F      |
-|       22260 | M      |
-+-------------+--------+
++--------------+--------+
+| Unique names | gender |
++--------------+--------+
+|        25596 | F      |
+|        22260 | M      |
++--------------+--------+
 2 rows in set (0.00 sec)
 
-+-------------+-------+
-| COUNT(name) | place |
-+-------------+-------+
-|       27143 | AK    |
-|      128556 | AL    |
-|       97560 | AR    |
-|      108599 | AZ    |
-|      361128 | CA    |
-|      101403 | CO    |
-|       78039 | CT    |
-|       53933 | DC    |
-|       30892 | DE    |
-|      191928 | FL    |
-|      172144 | GA    |
-|       52696 | HI    |
-|       89476 | IA    |
-|       55018 | ID    |
-|      218033 | IL    |
-|      131719 | IN    |
-|       89748 | KS    |
-|      113070 | KY    |
-|      142233 | LA    |
-|      112605 | MA    |
-|      104849 | MD    |
-|       48713 | ME    |
-|      173590 | MI    |
-|      107818 | MN    |
-|      131478 | MO    |
-|      109681 | MS    |
-|       44060 | MT    |
-|      163740 | NC    |
-|       44411 | ND    |
-|       68616 | NE    |
-|       37486 | NH    |
-|      144611 | NJ    |
-|       72585 | NM    |
-|       43473 | NV    |
-|      282486 | NY    |
-|      185277 | OH    |
-|      111492 | OK    |
-|       83676 | OR    |
-|      188681 | PA    |
-|       38789 | RI    |
-|      112529 | SC    |
-|       45559 | SD    |
-|      132832 | TN    |
-|      330672 | TX    |
-|     1858689 | US    |
-|       84193 | UT    |
-|      139163 | VA    |
-|       28006 | VT    |
-|      116631 | WA    |
-|      110188 | WI    |
-|       74572 | WV    |
-|       27237 | WY    |
-+-------------+-------+
-52 rows in set (0.00 sec)
++--------------+-------+
+| Unique names | place |
++--------------+-------+
+|        27143 | AK    |
+|       128556 | AL    |
+|        97560 | AR    |
+|       108599 | AZ    |
+|       361128 | CA    |
+|       101403 | CO    |
+|        78039 | CT    |
+|        53933 | DC    |
+|        30892 | DE    |
+|       191928 | FL    |
+|       172144 | GA    |
+|        52696 | HI    |
+|        89476 | IA    |
+|        55018 | ID    |
+|       218033 | IL    |
+|       131719 | IN    |
+|        89748 | KS    |
+|       113070 | KY    |
+|       142233 | LA    |
+|       112605 | MA    |
++--------------+-------+
+20 rows in set (0.70 sec)
 
 MariaDB [BabyName]> \t
